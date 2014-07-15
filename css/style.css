@@ -1,0 +1,51 @@
+.menu-items, .arrow_box{
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    background-color:#ccc;
+    height: 370px;
+    vertical-align:top;
+}
+
+.item{
+    background-color: #aaa;
+    margin: 5%;
+    width: 90%;
+    height: 80px;
+    text-indent: -9999px;
+}
+
+.item p{
+    display:none;
+}
+.show {
+    background-color: #666;
+    display:block;
+    text-indent:0px;
+}
+
+#menu-descriptions p {
+    display:none;
+}
+
+#menu-descriptions p.selected {
+    display:block;
+}
+
+.arrow_box {
+    position: relative;
+    background: #c2e1f5;
+    width: 192px;
+    height: 362px;
+    border: 4px solid #88b7d5;
+}
+
+
+.arrow{
+    position: absolute;
+    background-color: red;
+    height: 10px;
+    width: 30px;
+    top: 45px;
+    left: -45px;
+}
