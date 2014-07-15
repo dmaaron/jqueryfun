@@ -8,7 +8,7 @@ $(function(){
         var animateArrow = function(topPosition){
             $('.arrow').animate({
             'top':topPosition
-            },'slow');
+            },'fast');
         }
         
         var displayText = function(displayedText){
